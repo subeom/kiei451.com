@@ -3,19 +3,28 @@ body {
   /* Everything is Raleway */
   font-family: 'Raleway', sans-serif;
 }
+
 /* Except we're using more specific rules to override the headlines */
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: 'Roboto Slab', serif;
 }
+
 /* And the "logo" */
 .navbar-brand {
   font-family: 'Permanent Marker', cursive;
   font-size: 30px;
 }
+
 .navbar-brand img {
   width: 30px;
   height: 30px;
 }
+
 .navbar-light .navbar-brand {
   color: red;
 }
@@ -55,6 +64,7 @@ h1, h2, h3, h4, h5, h6 {
 .pricing {
   background-color: #181818;
 }
+
 .pricing h1 {
   font-family: 'Permanent Marker', cursive;
   color: #cccccc;
@@ -63,4 +73,8 @@ h1, h2, h3, h4, h5, h6 {
 /* The footer */
 .footer img {
   width: 100px;
+}
+
+.mb-5 {
+  font-family: 'Nanum Pen Script', cursive;
 }
